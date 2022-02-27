@@ -1,14 +1,6 @@
 import React from 'react'
 import {
-  Routes,
-  Route,
-  Outlet,
   Link,
-  NavLink,
-  useParams,
-  useNavigate,
-  useSearchParams,
-  BrowserRouter
 } from 'react-router-dom';
 import { useQuery, gql } from '@apollo/client';
 

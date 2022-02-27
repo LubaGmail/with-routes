@@ -1,20 +1,8 @@
 import React from 'react'
 import {
-  Routes,
-  Route,
-  Outlet,
-  Link,
-  NavLink,
-  useParams,
-  useNavigate,
-  useSearchParams,
-  BrowserRouter
+    NavLink,
 } from 'react-router-dom';
 import '../App.css';
-
-import Tracks from './Tracks'
-import Track from './Track'
-import NoMatch from './NoMatch'
 
 const Nav = () => {
 
