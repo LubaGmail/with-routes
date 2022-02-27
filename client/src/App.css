@@ -1,0 +1,17 @@
+.App {
+  text-align: left;
+  padding: 55px;
+}
+ul {
+  list-style: none;
+}
+
+.nav {
+  background-color: yellow;
+  margin: 0px;
+
+}
+
+.nav ul {
+  list-style: none;
+}
