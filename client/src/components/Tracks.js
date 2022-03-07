@@ -37,17 +37,15 @@ const Tracks = () => {
 
                   <li key={el.id}>
 
-                      <Link to={`/track/${el.id}`}>
-                         {el.id}
-                      </Link>
+                    <Link to={`/track/${el.id}`}>
+                        {el.id}
+                    </Link>
                       
-                      &nbsp; | &nbsp;
+                    &nbsp; | &nbsp;
                       
-                      {el.author.name}
+                    {el.author.name}
                   </li>
-
               ))
-              
             }
             </ul>
 

@@ -1,5 +1,5 @@
 Odyssey
-    https://odyssey.apollographql.com/lift-off-part3/building-the-track-page
+    https://odyssey.apollographql.com/lift-off-part4/testing-a-mutation-in-explorer
 
 Apollo Studio Explorer
     studio.apollographql.com
@@ -22,4 +22,24 @@ Scalar types
 
 Object types
     Author       Module
+
+
+Update the number of views for a track.
+    PATCH track/:id/numberOfViews
+
+    curl -X 'PATCH' \
+    'https://odyssey-lift-off-rest-api.herokuapp.com/track/c_0/numberOfViews' \
+    -H 'accept: application/json'
+
+    https://odyssey-lift-off-rest-api.herokuapp.com/track/c_0/numberOfViews
+
+
+@apollo/client cache
+    The value is first loaded from cache, then updates when the mutation response comes back successfully
+    
+
+
+
+
+
 

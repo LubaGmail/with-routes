@@ -17,7 +17,7 @@ server.listen().then(() => {
     console.table (`
       🚀  Server is running!
       🔉  Listening on port 4000
-      📭  Query at https://studio.apollographql.com/dev
+      📭  Query at https://studio.apollographql.com
     `);
 });
 

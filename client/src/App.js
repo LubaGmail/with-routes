@@ -1,6 +1,6 @@
 import './App.css';
 import React from 'react';
-import {ApolloClient,  InMemoryCache, ApolloProvider} from '@apollo/client';
+import {ApolloClient, ApolloProvider, InMemoryCache } from '@apollo/client';
 import Layout from './components/Layout'
 
 const client = new ApolloClient({
@@ -11,7 +11,6 @@ const client = new ApolloClient({
 const App = () => {
  
   return (
-
     <ApolloProvider client={client}>
       <div className="App">
         <h4>App</h4>
